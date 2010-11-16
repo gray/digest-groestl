@@ -75,8 +75,8 @@ Digest::Groestl - Perl interface to the Groestl digest algorithm
     use Digest::Groestl qw(groestl_256 groestl_256_hex groestl_256_base64);
 
     $digest = groestl_256($data);
-    $digest = groestl_hex_256($data);
-    $digest = groestl_base64_256($data);
+    $digest = groestl_256_hex($data);
+    $digest = groestl_256_base64($data);
 
     # Object-oriented interface
     use Digest::Groestl;
