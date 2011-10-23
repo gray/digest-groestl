@@ -3,6 +3,8 @@ Groestl.bs
 Groestl.c
 Groestl.o
 MANIFEST.bak
+MYMETA.json
+MYMETA.yml
 Makefile
 Makefile.old
 blib/
